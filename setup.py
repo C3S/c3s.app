@@ -5,10 +5,10 @@ from setuptools import setup, find_packages
 
 
 version = '0.1'
-shortdesc = 'example cone.app app'
+shortdesc = 'c3s app'
 longdesc = ''
 
-setup(name='my.app',
+setup(name='c3s.app',
       version=version,
       description=shortdesc,
       long_description=longdesc,
@@ -25,8 +25,8 @@ setup(name='my.app',
       url=u'https://github.com/AnneGilles/my.app',
       license='GNU General Public Licence',
       packages=find_packages('src'),
-      package_dir = {'': 'src'},
-      namespace_packages=['my'],
+      package_dir={'': 'src'},
+      namespace_packages=['c3s'],
       include_package_data=True,
       zip_safe=False,
       install_requires=[
