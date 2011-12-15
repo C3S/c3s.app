@@ -32,5 +32,6 @@ setup(name='c3s.app',
       install_requires=[
           'setuptools',
           'cone.app',
+          'python-memcached',
       ],
       )
