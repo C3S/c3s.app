@@ -7,7 +7,7 @@
   <view
     for="*"
     view=".browser.static_view"
-    name="myapp-static"
+    name="c3sapp-static"
   />
 
 </configure>

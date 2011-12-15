@@ -9,9 +9,9 @@ from cone.app.model import (
     )
 
 
-class MyApp(BaseNode):
+class C3SApp(BaseNode):
 
-    node_info_name = 'myapp'
+    node_info_name = 'c3sapp'
 
     @property
     def properties(self):
@@ -24,16 +24,16 @@ class MyApp(BaseNode):
     @property
     def metadata(self):
         md = BaseMetadata()
-        md.title = 'My App'
+        md.title = 'c3s App'
         return md
 
 info = NodeInfo()
-info.title = 'MyApp'
-info.description = 'This is my app'
+info.title = 'C3SApp'
+info.description = 'This is a c3s app'
 info.addables = ['band']
 #info.icon = 'url/to/icon'
 info.node = MyApp
-registerNodeInfo('myapp', info)
+registerNodeInfo('c3sapp', info)
 
 
 class Band(BaseNode):
@@ -66,7 +66,7 @@ info = NodeInfo()
 info.title = 'Band'
 info.description = 'This is a band'
 info.addables = ['track']
-info.icon = 'myapp-static/B16_16.png'
+info.icon = 'c3sapp-static/B16_16.png'
 info.node = Band
 registerNodeInfo('band', info)
 
@@ -101,6 +101,6 @@ info = NodeInfo()
 info.title = 'Track'
 info.description = 'This is a track'
 info.addables = []
-info.icon = 'myapp-static/T16_16.png'
+info.icon = 'c3sapp-static/T16_16.png'
 info.node = Track
 registerNodeInfo('track', info)

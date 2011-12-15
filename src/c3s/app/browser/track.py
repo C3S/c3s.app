@@ -13,7 +13,7 @@ from cone.app.utils import (
     add_creation_metadata,
     update_creation_metadata,
     )
-from my.app.model import (
+from c3s.app.model import (
         Track,
     )
 
@@ -22,7 +22,7 @@ class TrackForm(object):
     __metaclass__ = plumber
     __plumbing__ = YAMLForm
 
-    form_template = 'my.app.browser:forms/track.yaml'
+    form_template = 'c3s.app.browser:forms/track.yaml'
 
 
 @tile('addform', interface=Track, permission="add")

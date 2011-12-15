@@ -9,7 +9,7 @@ from cone.app.browser.authoring import (
     AddPart,
     EditPart,
     )
-from my.app.model import (
+from c3s.app.model import (
         Band,
     )
 
@@ -18,7 +18,7 @@ class BandForm(object):
     __metaclass__ = plumber
     __plumbing__ = YAMLForm
 
-    form_template = 'my.app.browser:forms/band.yaml'
+    form_template = 'c3s.app.browser:forms/band.yaml'
 
 from cone.app.utils import (
     add_creation_metadata,

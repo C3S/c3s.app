@@ -1,4 +1,4 @@
 import cone.app
-from my.app.model import MyApp
+from c3s.app.model import C3SApp
 
-cone.app.register_plugin('myapp', MyApp)
+cone.app.register_plugin('c3sapp', C3SApp)
