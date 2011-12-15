@@ -1,0 +1,7 @@
+/* main menu icon XXX: generic mechanism */                                                                               
+ul#mainmenu li.node-c3sapp a {                                                                                              
+    background:url('images/menu_c3s.png') top left no-repeat;                                                            
+}                                                                                                                         
+ul#mainmenu li.node-c3sapp a.current_page_item {                                                                            
+    background:url('images/menu_c3s_selected.png') top left no-repeat;                                                   
+}    
