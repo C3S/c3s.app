@@ -1,7 +1,10 @@
-my.app
+c3s.app
 ======
 
-my.app is a demo app for the cone stack, building on pyramid.
+c3s.app is an early version of a registration and asset management tool 
+for a creative commons collecting society. earliest alpha :-)
+
+It is also a demo app for the cone stack, building on pyramid.
 
 Two content types are in this: bands and tracks. A band object can contain 
 tracks...
