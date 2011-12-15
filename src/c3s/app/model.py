@@ -32,7 +32,7 @@ info.title = 'C3SApp'
 info.description = 'This is a c3s app'
 info.addables = ['band']
 #info.icon = 'url/to/icon'
-info.node = MyApp
+info.node = C3SApp
 registerNodeInfo('c3sapp', info)
 
 
