@@ -35,5 +35,6 @@ setup(name='c3s.app',
           'cone.ugm',
           'node.ext.ldap',
           'python-memcached',
+          'plone.testing',
       ],
       )
