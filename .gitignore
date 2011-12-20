@@ -1,0 +1,12 @@
+*.pyc
+*.pyo
+.installed.cfg
+.mr.developer.cfg
+.project
+.pydevproject
+bin/
+develop-eggs/
+devsrc/
+eggs/
+parts/
+src/c3s.app.egg-info/
